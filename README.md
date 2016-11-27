@@ -1,4 +1,4 @@
-# The_first_term_homework
+# Assignments
 大家把第一学期的作业都传到这里边来哈  
 步骤：  
 1. 将这个项目fork到你自己的仓库；  
