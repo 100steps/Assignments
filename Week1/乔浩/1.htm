@@ -1,0 +1,74 @@
+<html>
+<head>
+<script  src="script.js">
+</script>
+<style type="text/css">
+div{background-color:green;width:50;height:50;border-style:outset}
+.row{float:left;}
+.row2{float:left;}
+.cross2{float:left;position:relative;left:672px}
+.button{width:700;height:300;background-color:transparent;border:none;text-align:center;}
+.background{height:600;width:750;border-style:none;background-image:url(img/war.jpg);background-repeat:no-repeat;background-color:transparent;float:left}
+h1{text-indent:18%;}
+#part2{width:200;height:100;float:left;background-color:transparent;border:none}
+#line1{width:150;background-color:transparent;height:100}
+#line2{width:150;background-color:transparent;height:100}
+#turn1{width:10;height:10;background-color:blue}
+#turn2{width:10;height:10;background-color:red}
+#r0{background-color:blue}
+#r18{background-color:red}
+</style>
+</head>
+<body>
+<h1>攻占百步梯</h1>
+<div class="background">
+        <div class="row" id="r3"></div>
+        <div class="row" id="r4"></div>
+        <div class="row" id="r5"></div>
+        <div class="row" id="r6"></div>
+        <div class="row" id="r7"></div>
+        <div class="row" id="r8"></div>
+        <div class="row" id="r9"></div>
+        <div class="row" id="r10"><img src="img/Forward.jpg" width="30" height="30" ></div>
+        <div class="row" id="r11"></div>
+        <div class="row" id="r12"></div>
+        <div class="row" id="r13"></div>
+        <div class="row" id="r14"></div>
+        <div class="row" id="r15"></div>
+        <div class="cross"><img src="img/truck.jpg" width="30" height="30"></div>
+        <div class="cross2" id="r16"></div>
+        <div class="cross" id="r2"></div>
+        <div class="cross2" id="r17"></div>
+        <div class="cross" id="r1"><img src="img/blue.jpg" width="30" height="30"></div>
+        <div class="cross2" id="r18"><img src="img/red.jpg" width="30" height="30"></div>
+        <div class="cross" id="r0"></div>
+        <div class="cross2" id="r19"></div>
+        <div class="cross" id="r35"></div>
+        <div class="cross2" id="r20"></div>
+        <div class="cross" id="r34"></div>
+        <div class="row2" id="r33"></div>
+        <div class="row2" id="r32"></div>
+        <div class="row2" id="r31"></div>
+        <div class="row2" id="r30"></div>
+        <div class="row2" id="r29"></div>
+        <div class="row2" id="r28"></div>
+        <div class="row2" id="r27"></div>
+        <div class="row2" id="r26"></div>
+        <div class="row2" id="r25"><img src="img/stop.jpg" width="30" height="30"></div>
+        <div class="row2" id="r24"></div>
+        <div class="row2" id="r23"></div>
+        <div class="row2" id="r22"></div>
+        <div class="row2" id="r21"></div>
+        <div class="button">
+            <strong>点击此处进军</strong><br>
+            <img src="img/go.jpg" type="button" onclick="go()" width="70" height="100">
+        </div>
+</div>
+<div id="part2">
+    <div id="line1">
+        <div id="turn1"></div><span id="text1"></span>
+        <div id="turn2"></div><span id="text2"></span>
+    </div>
+</div>
+</body>
+</html>
