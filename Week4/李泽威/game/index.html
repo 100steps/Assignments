@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>测试</title>
+</head>
+<style>
+    body {
+        text-align: center;
+        background: black;
+    }
+    #loading{
+        z-index: -1;
+        position: absolute;
+        margin-top: 10%;
+        left: 35%;
+    }
+    #content {
+        position: relative;
+        left: -200%;
+        animation: start 29999s ;
+    }
+    #img {
+        z-index: -1;
+        position: absolute;
+        left: 12%;
+        width: 75%;
+    }
+    form{
+        margin-top: 25%;
+        color: darkcyan;
+        font-size: 30px;
+        display: inline-block;
+        z-index: 2;
+        background-color: #adadad;
+        padding: 25px;
+        border-radius: 50%;
+        animation: form 2s 99999;
+        transition: transform 3s,border-radius 3s,width 3s ;
+    }
+    #test {
+        display: none;
+    }
+    input#one {
+        height: 30px;
+        font-size: 20px;
+        border-radius: 20px;
+    }
+    input#two {
+        height: 30px;
+        font-size: 15px;
+        float: right;
+    }
+    form:hover {
+        width: 300px;
+        border-radius: 30%;
+        animation: none;
+        transform: rotate(360deg);
+    }
+    form:hover #test {
+        display: block;
+    }
+    
+    @keyframes form {
+        0%{padding: 25px; opacity: 1; background: red}
+        25%{ opacity: 0.75; background:purple}
+        50%{padding: 30px;opacity: 0.5;background: #2e6da4}
+        75%{opacity: 0.75; background:gray}
+        100%{padding: 25px; opacity: 1; background: red}
+    }
+    @keyframes start {
+        0%{left: -200%}
+        0.01%{left: 0%}
+        100%{left: 0%}
+    }
+
+</style>
+<body>
+<img src="加载-161.gif" id="loading">
+<div id="content">
+<img src="img/background2.jpg" id="img">
+<form method="get" action="test.php">
+    <div id="test">
+    输入你的姓名：<input type="text" name="name" id="one"><br/>
+    <input type="submit" value="测试" id="two" >
+    </div>
+</form>
+</div>
+</body>
+</html>

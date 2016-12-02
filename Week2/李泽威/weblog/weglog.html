@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="weblog.css">
+    <meta charset="UTF-8">
+    <title>博客主页</title>
+
+</head>
+<body>
+<div  id="background">
+<div id="container">
+    <div id="header">
+            <b>个人博客</b>
+             <img id="day" src="image\day.png" width="10%" style="float: right" onclick="change_day()"
+                  title="关灯，我就是你的守护~~">
+             <img id="night" src="image\night.png" width="10%" style="float: right" onclick="change_night()"
+                  title="点燃，我就是你的太阳~~">
+            <p>青春是打开了，就合不上的书，人生是踏上了，就回了头的路，爱情是扔出了，就收不回的赌注</p>
+            <a href="" id="header1" class="header">首页</a>
+            <a href="" id="header2" class="header">关于我</a>
+            <a href="" id="header3" class="header">碎言碎语</a>
+            <a href="" id="header4" class="header">个人日记</a>
+            <a href="" id="header5" class="header">相册展览</a>
+            <a href="" id="header6" class="header">关于我</a>
+            <a href="leaveWord.php" id="header7" class="header">留言板</a>
+
+    </div>
+    <div id="content">
+        <a href=""><img src="image\font-61469.png" style="width: 50px;height: 50px;">文章推荐</a>
+        <a href=""><img src="image\font-229.png" style="width: 50px;height: 50px; margin-left:10%;">世界之窗</a>
+        <a href=""><img src="image\logo.png" style="height: 50px; margin-left: 10%;"></a><hr>
+        <div class="content"></div>
+        <div class="content"></div>
+        <div class="content"></div>
+
+    </div>
+    <div id="user">
+        <b>关于博主</b><hr>
+        <img id="image" src="image\test.jpg">
+        <p style="padding-left: 10%">博主：李清风</p>
+        <p style="padding-left: 10%">职业：web后端、php忠实信仰者</p>
+        <a href="" style="padding-left: 10%"><img src="image\button_old_11.gif"></a>
+    </div>
+    <div id="extra">
+        <a class="news" id="news1" href="javascript:introduce()">精心推荐</a>
+        <a class="news" id="news2" href="javascript:news()">最新文章</a>
+        <a class="news" id="news3" href="javascript:random()">随机文章</a><hr>
+        <div>
+            <p id="extraContent">
+                这是精心推荐
+            </p>
+        </div>
+        </div>
+    </div>
+    <div id="footer">
+         制作 © make in Jim
+    </div>
+    <div id="music">
+        <span><img src="image\music.png" width="50px"></span>
+        <audio id="control" autoplay="true" loop="1" controls="controls" src="口琴%20-%20童话.mp3"></audio>
+    </div>
+    </div>
+
+
+
+<script>
+    function random() {
+        document.getElementById("extraContent").innerHTML="在代码的海洋里遨游";
+    }
+    function news() {
+        document.getElementById("extraContent").innerHTML="代码爱我";
+    }
+    function introduce() {
+        document.getElementById("extraContent").innerHTML="我爱代码";
+    }
+
+    function change_day() {
+        document.getElementById("night").style.display="block";
+        document.getElementById("day").style.display="none";
+        document.getElementById("background").style.background="#760C81";
+        document.getElementById("header").style.background="url(background2.jpg)";
+        document.getElementById("content").style.opacity="0.5";
+        document.getElementById("control").src="乔小龙%20-%20夜的钢琴曲(五)%20-%20钢琴版纯音乐.mp3";
+        document.getElementById("header1").style.color="#92b5b4";
+        document.getElementById("header2").style.color="#92b5b4";
+        document.getElementById("header3").style.color="#92b5b4";
+        document.getElementById("header4").style.color="#92b5b4";
+        document.getElementById("header5").style.color="#92b5b4";
+        document.getElementById("header6").style.color="#92b5b4";
+        document.getElementById("header7").style.color="#92b5b4";
+        document.getElementById("news1").style.color="#92b5b4";
+        document.getElementById("news2").style.color="#92b5b4";
+        document.getElementById("news3").style.color="#92b5b4";
+
+
+    }
+    function change_night() {
+        document.getElementById("day").style.display="block";
+        document.getElementById("night").style.display="none";
+        document.getElementById("background").style.background="#e3e3e3";
+        document.getElementById("header").style.background="url(background1.jpg)";
+        document.getElementById("content").style.opacity="1";
+        document.getElementById("control").src="口琴%20-%20童话.mp3";
+        document.getElementById("header1").style.color="";
+        document.getElementById("header2").style.color="";
+        document.getElementById("header3").style.color="";
+        document.getElementById("header4").style.color="";
+        document.getElementById("header5").style.color="";
+        document.getElementById("header6").style.color="";
+        document.getElementById("header7").style.color="";
+        document.getElementById("news1").style.color="rgba(27, 22, 203, 0.45)";
+        document.getElementById("news2").style.color="rgba(27, 22, 203, 0.45)";
+        document.getElementById("news3").style.color="rgba(27, 22, 203, 0.45)";
+    }
+</script>
+</body>
+</html>
