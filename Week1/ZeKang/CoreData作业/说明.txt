@@ -1,0 +1,11 @@
+嗯，一个同学的mac里正好有xcode（他用来做c++作业），借来做coredata的作业，发现做着做着好像有什么很不对劲，白费了许多力气后才发现ios10里的coredata方法已经被改写了，生成的appdelegate.h文件中居然出现了 container这种神奇的东西，而教程中的ManagedObjectContext 和 ManagedObjectModel 和 PesistentStoreCoordinator呢？！！！！
+
+这个路子行不通，我还是用我的戴尔虚拟机吧，虚拟机里的Xcode版本还是7.1的测试版，跟教程差别不大。
+
+然后……先跟着教程了解了coredata，做了个Demo，也就是CoredataDemo那个文件，发现其实coredata模式跟git、github其实有点像啊，ManagedObjectContext相当于git，在本地临时暂存数据，然后通过commit（PesistentStoreCoordinator）变为永久储存（传到了github上），coredata后面也是跟云存储有关联的吧。。
+
+做了Demo后，就把原来作业中的归档代码删除了，想可不可以通过插入coredata代码来实现存储，然后各种莫名其妙的崩溃、无法运行，也就是AddressBook+coreData了（也是能理解storyboard的缺点了）
+
+费了不知道多少时间后……那我干脆重新做一个通讯录吧，这样子说不定更容易呢……然后就遇到了不同页面间的代理传值和coredata方法中的传值怎么配合的问题……ORZ，总之，还是做出了CoreDataDemo2，虽然不不知道怎么连数据在tableView上都没显示，明明我已经把AddView页面数据的传递，view页面数据的接收都做了啊……，心累
+
+嗯，虽然没成功，但我还会继续尝试的，但……不交作业的话好像会让师兄觉得我没努力，所以交个作业说明我还是有在努力的。
