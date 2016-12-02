@@ -1,0 +1,143 @@
+#head {
+	width:1200px;
+	height:100px;
+	padding: 20px;
+    	margin: 10px auto;
+    	background-color: #bbada0;
+    	border-radius: 10px;
+    	position: relative;
+}
+
+#navigation-bar {
+	font-family:"楷体";
+	font-size:16px;
+	width:1200px;
+	height:5px;	
+	padding:20px;
+	margin: 10px auto;
+	background-color: #bbada0;
+	border-radius: 10px;
+	position: relative;
+}
+
+#sidebar {
+	width:200px;
+	height:1200px;
+	padding: 10px;
+    	margin: 10px ;
+    	background-color: #bbada0;
+    	border-radius: 10px;
+    	position: relative;
+    	left:120px;
+    	display:inline-block;
+}
+
+#essay {
+	width:950px;
+	height:1200px;
+	padding: 10px;
+    	margin: 10px ;
+    	background-color: #bbada0;
+    	border-radius: 10px;
+    	position: relative;
+    	left:140px;
+    	display:inline-block;
+}
+
+.grid-cell {
+    	width: 180px;
+    	height: 50px;
+    	border-radius: 6px;
+    	background-color: #ccc0b3;
+    	position: absolute;
+    	font-family:"楷体";
+    	font-size:36px;
+        	text-align:center;
+
+}
+
+.grid-cell1 {
+	width: 180px;
+    	height:100px;
+    	border-radius: 6px;
+    	background-color: #ccc0b3;
+    	position: absolute;
+    	font-family:"楷体";
+    	font-size:36px;
+}
+
+#head-1 {
+	width:800px;
+	height:80px;
+	padding: 10px;
+    	margin: 5px auto;
+    	background-color: #ccc0b3;
+    	border-radius: 10px;
+    	position: relative;
+    	font-family:"楷体";
+    	font-size:60px;
+    	text-align:center;
+}
+
+.grid-cell20 {
+	width: 950px;
+    	height:200px;
+    	border-radius: 8px;
+    	background-color: #ccc0b3;
+    	position: absolute;
+    	font-family:"楷体";
+    	font-size:20px;
+}
+
+#grid-cell0 {
+	top:20px;
+}
+
+#grid-cell1 {
+	top:240px;
+}
+
+#grid-cell2 {
+	top:460px;
+}
+
+#grid-cell3 {
+	top:680px;
+}
+
+#grid-cell4 {
+	top:900px;
+}
+
+#grid-cell-0-0 {
+	width: 950px;
+    	height:1200px;
+    	border-radius: 8px;
+    	background-color: #ccc0b3;
+    	position: absolute;
+    	font-family:"楷体";
+    	font-size:25px;
+    	text-align:left;
+}
+
+#sidebar0 {
+	width:1200px;
+	height:200px;
+	padding: 20px;
+    	margin: 10px auto;
+    	background-color: #bbada0;
+    	border-radius: 10px;
+    	position: relative;
+}
+
+#log-btn {
+	display: block;
+    	margin: 20px auto;
+    	width: 100px;
+   	padding: 10px 10px;
+   	background-color: #8f7a66;
+    	font-family: Arial;
+    	color: white;
+    	border-radius: 10px;
+    	text-decoration: none;
+}
