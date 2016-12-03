@@ -1,0 +1,134 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>blog</title>
+<script src="blog.js">
+</script>
+<link href="blog.css" rel="stylesheet" type="text/css"/>
+<style type="text/css">
+body{
+        background-image: URL(1.jpg);
+        background-position: center;
+        background-size:100%
+}
+.container{
+  opacity: 0.8;
+  width: 778px;
+  background: :#FFF;
+  margin: 0 auto;
+  text-align:left;
+}
+ul{
+  float: left;
+}
+.header{
+       text-shadow: 2px 2px 0 #FFFFFF;
+  padding: 10px 0;
+  font-size:80px;
+}
+.menubar{
+  height: 30px;
+  padding: 5px;
+            background:white;
+            opacity: 0.5;
+
+}
+.sidebar{
+  float:left;
+  width:20%;
+  background: #a4f;
+             text-align: center;
+             height: 600px;
+
+}
+.mainContent{
+     float: right;
+  width: 80%;
+  background: #eee;
+             height: 600px;
+}
+.footer{
+  padding: 10px 0;
+  background: #ccc49F;
+  position:relative;
+  clear: both;
+             text-align: right;
+}
+.menu{
+       width: 2.5em;
+  font:black;
+  float: left;
+  margin:0px 20px;
+}
+
+h2{
+  color=purple ;
+   text-align=middle;
+   font-style: "楷体";
+}
+
+
+</style>
+</head>
+
+
+<body>
+<div class="container">
+  <div class="header">MinMinEr</div> 
+    <form method="post" action="welcome.php">
+    姓名：<input type="text" name="fname">
+    年龄：<input type="text" name="age">
+    <input type="submit" value="提交">
+  <div class="menubar">
+          <div class="menu"><input name="首页" type="button" value="首页" onclick="mainpage()"/></div>
+          <div class="menu"><input name="html" type="button" value="html" onclick="_html()"/></div>
+          <div class="menu"><input name="css" type="button" value="css" onclick="_css()"/></div>
+          <div class="menu"><input name="Js" type="button" value="Js" onclick="Js()"/></div>
+         
+
+  </div>
+  <div class="sidebar">
+          <h2>MinMinEr</h2>
+          <img src="2.jpg" width=100%>
+
+           <p>喜欢吃甜的</p>
+           <p>喜欢吃辣条</p>
+           <p>不喜欢吃辣</p>
+           <p>喜欢去慢跑</p>
+           <p>不喜欢竞赛</p>
+           <p>很喜欢学习</p>
+           <p>不喜欢作业</p>
+           <p>很想要减肥</p>
+           <p>舍不得甜品</p>
+           <p>╮(╯▽╰)╭</p>
+      </div>
+  <div class="mainContent">
+  <h2 >前端开发</h2>
+  <p id="content">2005年以后，互联网进入Web2.0时代，各种类似桌面软件的Web应用大量涌现，网站的前端由此发生了翻天覆地的变化。网页不再只是承载单一的文字和图片，各种富媒体让网页的内容更加生动，网页上软件化的交互形式为用户提供了更好的使用体验，这些都是基于前端技术实现的。以前会Photoshop和Dreamweaver就可以制作网页，现在只掌握这些已经远远不够了。无论是开发难度上，还是开发方式上，现在的网页制作都更接近传统的网站后台开发，所以现在不再叫网页制作，而是叫Web前端开发。Web前端开发在产品开发环节中的作用变得越来越重要，而且需要专业的前端工程师才能做好，这方面的专业人才近几年来备受青睐。Web前端开发是一项很特殊的工作，涵盖的知识面非常广，既有具体的技术，又有抽象的理念。简单地说，它的主要职能就是把网站的界面更好地呈现给用户
+  </p>
+  </div>
+
+  <div class="footer" >XX出品，翻版必究</div>
+</div>
+          <audio autoplay="autoplay">
+
+         <source src="music.mp3" type="audio/mp3"/>
+
+         </audio>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
