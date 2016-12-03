@@ -1,0 +1,99 @@
+<html>
+<body>
+<head>
+<style>
+div{border-style:solid}
+.head{height:90;width:900;position:relative;left:150;}
+.mainpart{height:1000;width:700;float:left;position:relative;left:30;border-style:none;top:20}
+.information{float:left;height:700;width:200;position:relative;border-style:none;top:20}
+.otherpart{float:left;width:200;height:1000;position:relative;left:60;border-style:none;top:20}
+
+#headtext{font-size:50;text-align:center}
+#innerpart{height:200}
+#innerhead1{height:80}
+#innertext1{height:200}
+#innerhead2{height:80}
+#innertext2{height:200}
+#inner1{position:relative;left:120}
+#inner2{position:relative;left:240}
+#inner3{position:relative;left:360}
+#inner4{position:relative;left:480}
+</style>
+<script src="jquery-3.1.1.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("#button1").click(function(){
+    $("#othertext1").toggle()
+    })
+    $("#button2").click(function(){
+    $("#othertext2").toggle()
+    })
+})
+</script>
+
+</head>
+<div class="head">
+<div id="headtext">      xxx的博客</div>
+<span id="inner1">博主资料</span><span id="inner2">博主的文章</span><span id="inner3">博主的相册</span><span id="inner4">留言板</span>
+    
+</div>
+
+<div class="information">
+    <div>博主名称</div>
+    <div>博主照片</br>
+         <img src="1.jpg" width="195">
+    </div>
+    <div id="innerpart">
+        博主个人简介</br>
+        xxxxxxxxxxxxxxxxxx</br>
+        xxxxxxxxxxxxxxxxxx
+          
+    </div>
+    
+</div>
+<div class="mainpart">   
+    <div calss="part1">
+        他的文章
+    </div>
+    <div class="part2">
+        <div class="text1">
+            <div id="innerhead1">文章1</div>
+            <div id="innertext1">正文</div>
+        </div>
+        <div class="text2">
+            <div id="innerhead2">文章2</div>
+            <div id="innertext2">正文</div>
+        </div>
+    </div>
+</div>
+<div class="otherpart">
+    <div>
+        相关博文<button id="button1">显示/隐藏</button>
+    </div>
+    <div id="othertext1">
+        xxxxxxxxx</br>
+        xxxxxxxxx</br>
+        xxxxxxxxx</br>
+xxxxxxxxx</br>
+xxxxxxxxx</br>
+xxxxxxxxx</br>
+xxxxxxxxx</br>
+xxxxxxxxx</br>
+    </div>
+    <div>
+        博主推荐博文<button id="button2">显示/隐藏</button>
+    </div>
+    <div id="othertext2">
+        xxxxxxxxx</br>
+        xxxxxxxxx</br>
+        xxxxxxxxx</br>
+xxxxxxxxx</br>
+xxxxxxxxx</br>
+xxxxxxxxx</br>
+xxxxxxxxx</br>
+xxxxxxxxx</br>
+    </div>
+</div>
+
+</body>
+</html>
