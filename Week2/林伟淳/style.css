@@ -1,0 +1,54 @@
+	.header{
+		position: relative;
+		width: 100%;
+		height: 100px;
+		left: 0;
+		float: left;
+		background-color: gray;
+		border: solid 1px #000;
+	}
+	h1{
+		text-align: center;
+		margin: 30px auto;
+	}
+	.nav_1{
+		position: relative;
+		width: 100%;
+		height: 30px;
+		float: left;
+		clear: left;
+		border: solid 1px #000;
+	}
+	.intro{
+		position: relative;
+		float: left;
+		clear: left;
+		width: 20%;
+		height: 600px;
+		border: solid 1px #000;
+	}
+	#maincontent{
+		position: relative;
+		float: left;
+		left: 3px;
+		width: 79%;
+		height: 600px;
+		border: solid 1px #000; 
+		text-align: center;
+	}
+	button{
+		float: right;
+		width: 25%;
+		height: 30px;
+	}
+	#protrait{
+		position: relative;
+		margin: 20px auto;
+		width: 70%;
+		height: 150px;
+		border: solid 2px #000; 
+	}
+	img{
+		width: 100%;
+		height: 100%;
+	}
