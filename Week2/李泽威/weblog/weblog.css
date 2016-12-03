@@ -1,0 +1,143 @@
+div#background{
+    width: 100%;height: 1000px; background-color: #e3e3e3;
+
+}
+div#container{
+    width: 80%;margin-left: auto;margin-right: auto;
+
+}
+div#header{
+    background-image:url(background1.jpg);
+    border: solid;;
+}
+.header{
+    float:inherit;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+#night{
+    display: none;
+}
+div#content{
+    width:71%; background-color: #a6e1ec;float: left;border: solid 1px;
+}
+
+div.content{
+    width: auto;height: 200px;border: solid;margin-bottom: 10px;border-width: 2px;
+}
+div#user{
+    width:28%;border: solid;float: right;
+}
+#image{
+    margin-left: 10%;
+    width: 80%;height:60%;
+}
+div#extra{
+    width:28%;min-height:365px;border: solid;float:right;text-decoration: none;
+}
+
+.news{
+    color: rgba(27, 22, 203, 0.45);
+    padding-left: 5%;
+    padding-right: 5%;
+}
+a{
+    text-decoration: none;
+}
+a.news:hover{
+    background-color: #9d9d9d;
+}
+a.header:hover{
+    background-color: #9d9d9d;
+}
+
+#footer{
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+#music{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+
+}
+#control{
+    display: none;
+}
+#music:hover #control{
+    display:block;
+}
+
+
+
+@media (max-width: 370px){
+
+    div#user{
+        width:100%;
+        float: left;
+    }
+    div#content{
+        width: 99%;
+        float: left;border:
+            solid 2px;
+         }
+    div#extra{
+        width:100%;
+        min-height:365px;
+        float: left;
+        text-decoration: none;
+    }
+}
+
+@media (max-width: 435px) and (min-width: 370px) {
+    div#content {
+        width: 69%;
+    }
+}
+
+@media (max-width: 650px) and (min-width: 435px) {
+    div#content {
+        width: 69.5%;
+    }
+}
+
+@media (max-width: 900px) and (min-width: 650px){
+    div#content{
+        width:70.3%;
+    }
+
+}
+
+@media (max-width: 1300px) and (min-width: 900px){
+    div#content{
+        width:70.7%;
+    }
+
+}
+
+@media (min-width: 1300px){
+    div#content{
+        width:71.0%;
+    }
+    div#extra{
+        width:28%;
+        min-height:310px;
+    }
+}
+
+@media (min-width: 1400px){
+    div#content{
+        width:74.2%;
+    }
+    div#user{
+        width:25%;
+    }
+    div#extra{
+        width:25%;
+        min-height:310px;
+    }
+
+}
