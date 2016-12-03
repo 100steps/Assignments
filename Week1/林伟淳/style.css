@@ -1,0 +1,93 @@
+        #all{
+            left: 16%;
+            top: 15%;
+            position: absolute;
+            width: 806px;
+            height: 436px;
+           /* border: solid 1px #000000;*/
+        }
+        #map{
+        	left: 0;
+        	top: 0;
+        	position: absolute;
+        	width: 804px;
+        	height: 434px;
+            /*border: solid 1px #000000;*/
+        }
+        #msg_box{
+        	position: absolute;
+        	left: 16%;
+        	top: 20%;
+        	width: 540px;
+        	height: 270px;
+        	/*border: solid 1px #000000;*/
+        }
+        .boxl{
+        	width: 60px;
+        	height: 60px;
+        	border: solid 1px #000000;
+        	float: left;
+        }
+        .boxr{
+        	width: 60px;
+        	height: 60px;
+        	border: solid 1px #000000;
+        	float: right;
+        }
+		.kong{
+			width: 60px;
+        	height: 60px;
+        	border: solid 1px white;
+        	float: left;
+		}
+		.kongr{
+			width: 60px;
+        	height: 60px;
+        	border: solid 1px white;
+        	float: right;
+		}
+		#rollg{
+			position: absolute;
+			left: 8%;
+			top: 20%;
+			width: 100px;
+			height: 40px;
+			margin: 0 auto;
+			display: block;
+			font-size: 25px;
+		}
+		#rollr{
+			position: absolute;
+			left: 75%;
+			top: 20%;
+			width: 100px;
+			height: 40px;
+			margin: 0 auto;
+			display: block;
+			font-size: 25px;
+		}
+		#pt_box{
+			position: absolute;
+			left: 30%;
+			top: 18%;
+			width: 220px;
+			height: 220px;
+		}
+        #not_box{
+            position: absolute;
+            left: 32%;
+            top: 0;
+            width: 200px;
+            height: 40px;
+            /*border: solid 1px #000000;*/
+        }
+        p{
+            text-align: center;
+            font-size: 25px;
+            margin-top: 10px;
+            color: black;
+        }
+        img{
+        	width: 60px;
+        	height: 60px;
+        }
