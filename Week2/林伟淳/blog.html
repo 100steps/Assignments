@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Wilson's Blog</title>
+	<meta charset = "utf-8">
+	<link rel = "stylesheet" type = "text/css" href = "style.css">
+	<script type = "text/javascript" src = "jquery-3.1.1.js"></script>
+</head>
+<body>
+	<div class = "header">
+		<h1>Wilson's Blog</h1>
+	</div>
+	<div class = "nav_1">
+		<button id = "me">关于我</button>
+		<button id = "album">相册</button>
+		<button id = "passage">文章</button>
+		<button id = "firstpage">首页</button>
+	</div>
+	<div class = "intro">
+		<div id = "protrait">
+			<img src="protrait.jpg" alt="头像">
+		</div>
+		<div>
+			<p style = " font-size: 30px "> 博主：Wilson </p>
+			<ul>
+				<li>性别：男</li>
+				<li>性格：正直</li>
+				<li>现状：单身狗一枚</li>
+				<li>隶属于：百步梯技术部</li>
+			</ul>
+		</div>
+	</div>
+	<div id = "maincontent">
+		<p>不知道要写些什么哈哈哈</p>
+	</div>
+	<script>
+		$(document).ready(function(){
+			$("#firstpage").click(function(){
+				$("#maincontent").html("<p>不知道要写些什么哈哈哈</p>");
+			})
+			$("#me").click(function(){
+				$("#maincontent").html("<p>我就是宇宙第一帅的我</p>");
+			})
+			$("#passage").click(function(){
+				$("#maincontent").html("<p>这是一篇只有正直的人才能看得到的文章</p>");
+			})
+			$("#album").click(function(){
+				$("nav_2").show();
+				$("#maincontent").html("<img src='photo.jpg' alt='技术部大合照'>");
+			})
+			
+		});
+	</script>
+</body>
+</html>
