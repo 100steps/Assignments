@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>信工3班陈敏</title>
+             <link rel="stylesheet" type="text/css" href="bbt.css">
+             <script type="text/javascript" src="bbt.js"></script>
+</head>
+<body background="http://images.missyuan.com/attachments/day_100308/20100308_5da9faeba1f1c533a94a442a2FdJZ8mS.jpg">
+             <div id="header">
+             <h1 >     <font color="red">攻占百步梯</font></h1>
+ 
+               </div>
+                   <hr>
+             <div class="rule">
+                            <h2>游戏规则</h2>
+                                                 <p>红蓝双方通过掷骰子轮流行动，先追上对方者或转圈5圈者获胜</p>
+                                                 <br>
+                                                           <button onclick = "goToBegin()" id = "roll">重新开始</button>
+                                                    <br>
+                                                    <div class="shaizi">
+                                                           <img src="shaizi.gif" id="idshaizi">
+                                                    </div>
+
+                                                 </div>
+	<div id="map">
+		<!-- 第一行的10个格子 -->
+		
+		<div class="box" id="b1"></div>
+		<div class="box" id="b2"></div>
+		<div class="box" id="b3"></div>
+		<div class="box" id="b4"></div>			
+		<div class="box" id="b5" >Once again</div>
+		<div class="box" id="b6"></div>
+		<div class="box" id="b7"></div>
+		<div class="box" id="b8"></div>
+		<div class="box" id="b9"></div>
+		<div class="box" id="b10"></div>			
+		<div class="box" id="b11"></div>
+		<div class="box" id="b12">unlucky</div>
+                          <div class="box" id="b13"></div> 
+                          <!-- 左边一列 -->
+	<div class="cols">
+		<div class="box" id="b40"></div>
+		<div class="box" id="b39"></div>
+		<div class="box" id="b38">fly</div>
+		<div class="box" id="b37" ><img src="bbtimg/redbegin.gif" height="48px">红格子起点</div>			
+		<div class="box" id="b36"></div>
+		<div class="box" id="b35"></div>
+		<div class="box" id="b34"></div>
+	</div>
+
+    <!-- 显示事件、行动等等的位置 -->
+          <div id="msg_box">
+
+                         <p id = "roll-result"></p>
+                         <p id = "huihe"></p>
+                         <p id ="happen"></p>
+                          <button onclick = "roll()" id = "roll">掷骰子</button>
+
+
+  	</div>
+
+		<!-- 右边一列 -->
+	<div class="cols">
+		<div class="box" id="b14"></div>
+		<div class="box" id="b15">unlucky</div>
+		<div class="box" id="b16"></div>
+		<div class="box" id="b17"><img src="bbtimg/bluebegin.gif" height="48px">蓝格子起点</div>			
+		<div class="box" id="b18"></div>
+		<div class="box" id="b19"></div>
+		<div class="box" id="b20"></div>
+	</div>
+
+
+		<div class="box" id="b33">Once agian</div>
+		<div class="box" id="b32"></div>
+		<div class="box" id="b31"></div>
+		<div class="box" id="b30"></div>			
+		<div class="box" id="b29"></div>
+		<div class="box" id="b28"></div>
+		<div class="box" id="b27"></div>
+		<div class="box" id="b26"></div>
+		<div class="box" id="b25">fly</div>
+		<div class="box" id="b24"></div>			
+		<div class="box" id="b23"></div>
+		<div class="box" id="b22"></div>
+                          <div class="box" id="b21"></div> 
+             
+
+ 	
+
+</div>		<!-- 蓝色方色块 -->
+		<div id="blue"></div>
+
+	</div>
+	
+
+</body>
+</html>
